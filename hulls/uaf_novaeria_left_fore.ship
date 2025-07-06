@@ -1,0 +1,210 @@
+{
+  "hullName": "LEFT HULL",
+  "hullId": "uaf_novaeria_left_fore",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Novaeria/uaf_novaeria_left_hull.png",
+  "style": "MIDLINE",
+  "height": 376,
+  "width": 199,
+  "center": [124.5, 77.5],
+  "collisionRadius": 300,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_linkedHangar",
+    "uaf_flagship_exthangar",
+    "uaf_automataSpec",
+    "uaf_royal_arithmetic_sys"
+  ],
+  "builtInWeapons": {
+    "LFOREMBLINKER1": "uaf_blinker_foremost_1",
+    "LFOREMBLINKER2": "uaf_blinker_foremost_2",
+    "LFOREMBLINKER3": "uaf_blinker_foremost_3"
+  },
+  "weaponSlots": [
+    {
+      "id": "LFOREMBLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [148.5, -21.5]
+    },
+    {
+      "id": "LFOREMBLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [164.5, -21.5]
+    },
+    {
+      "id": "LFOREMBLINKER3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [181, -21.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [246.5, 1.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [191, 1.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [147.5, 18.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 40.5,
+      "locations": [-13.5, 112.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [85, 64]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [105, 61]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [106, -60]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [86, -63]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-45.5, 37.5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-41.5, 27.5]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-35.5, 17]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-32, 6.5]
+    },
+    {
+      "id": "LB 5",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-31.5, -5]
+    },
+    {
+      "id": "LB 6",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-34, -13.5]
+    },
+    {
+      "id": "LB 7",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-40, -27]
+    },
+    {
+      "id": "LB 8",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-45, -37]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    273.5, 43,
+    302.5, -23,
+    279.5, -25,
+    281.5, -39,
+    -61, -74,
+    -28.5, 0,
+    -74.5, 110.5,
+    3.5, 102,
+    37, 69
+  ]
+}
